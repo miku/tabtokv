@@ -90,6 +90,11 @@ func main() {
 	}
 
 	tx, err := db.Begin()
+	_, err = db.Exec(`PRAGMA temp_store = 2`)
+	if err != nil {
+		log.Fatalf("%q: %s\n", err)
+	}
+
 	if err != nil {
 		log.Fatalln(err)
 	}

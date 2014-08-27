@@ -1,6 +1,6 @@
 Summary:    Convert TSV columns into sqlite3 backed key-value store.
 Name:       tabtokv
-Version:    0.1.0
+Version:    0.1.1
 Release:    0
 License:    GPLv3
 BuildArch:  x86_64
