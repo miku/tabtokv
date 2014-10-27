@@ -24,7 +24,7 @@ func main() {
 	outFile := flag.String("o", "", "output filename")
 
 	var PrintUsage = func() {
-		fmt.Fprintf(os.Stderr, "Usage: %s [OPTIONS] MARCFILE\n", os.Args[0])
+		fmt.Fprintf(os.Stderr, "Usage: %s [OPTIONS] TAB-SEPARATED-FILE\n", os.Args[0])
 		flag.PrintDefaults()
 	}
 
